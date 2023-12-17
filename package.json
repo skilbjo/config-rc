@@ -46,7 +46,7 @@
   "devDependencies": {
     "@commitlint/cli": "16.2.4",
     "@commitlint/config-angular": "16.2.4",
-    "@types/node": "20.8.2",
+    "@types/node": "20.10.4",
     "depcheck": "1.4.6",
     "husky": "8.0.1"
   },
