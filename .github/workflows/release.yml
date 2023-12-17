@@ -1,0 +1,52 @@
+name: release
+
+on:
+  push:
+    branches:
+      - master
+
+defaults:
+  run:
+    shell: bash
+
+# uses: lhotari/action-upterm@v1 # if ssh is needed
+
+jobs:
+  publish-artifact:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          token: ${{ secrets.ACTIONS_TOKEN }}
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - run: make ci
+
+      - uses: cycjimmy/semantic-release-action@v4.0.0
+        id: semantic # need an `id` for output variables
+        with:
+          semantic_version: 18
+          extra_plugins: |
+            @semantic-release/git@10.0.1
+            @semantic-release/changelog@6.0.0
+            @semantic-release/exec@6.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
+          NPM_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
+
+      - name: Push updates to branch for major version
+        # if there is a new version published, let's say v1.2.3
+        # then this step will update branch "v1" to this commit
+        if: steps.semantic.outputs.new_release_published == 'true'
+        run: "git push https://x-access-token:${{ secrets.ACTIONS_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git HEAD:refs/heads/v${{steps.semantic.outputs.new_release_major_version}}"

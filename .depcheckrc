@@ -1,0 +1,7 @@
+ignores: [
+  '@commitlint/cli',
+  '@commitlint/config-angular',
+  '@tsconfig/node18',
+  '@types/jest',
+  'husky'
+]

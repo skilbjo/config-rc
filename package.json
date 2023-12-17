@@ -1,0 +1,61 @@
+{
+  "$schema":"https://json.schemastore.org/package",
+  "name": "@affixapi/config-rc",
+  "version": "0.0.1",
+  "description": "eslint, prettier, & tsconfig config",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "if [[ -z $GITHUB_ACTIONS ]]; then npx husky install; fi",
+    "eslint": "eslint .",
+    "lint": "npm run eslint",
+    "depcheck": "depcheck",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "github:affixapi/config-rc.git",
+  "keywords": [
+    "eslint",
+    "eslintrc"
+  ],
+  "author": "skilbjo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/affixapi/config-rc/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/affixapi"
+  },
+  "homepage": "https://github.com/affixapi/config-rc#readme",
+  "dependencies": {
+    "@tsconfig/node18": "18.2.2",
+    "@types/jest": "29.5.5",
+    "@typescript-eslint/eslint-plugin": "6.7.4",
+    "@typescript-eslint/parser": "6.7.4",
+    "eslint": "8.50.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-config-typescript": "3.0.0",
+    "eslint-import-resolver-typescript": "3.6.1",
+    "eslint-plugin-import": "2.28.1",
+    "eslint-plugin-jest": "27.4.2",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "5.0.0",
+    "eslint-plugin-sort-keys-fix": "1.1.2",
+    "eslint-plugin-typescript-sort-keys": "3.0.0",
+    "prettier": "3.0.3",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "16.2.4",
+    "@commitlint/config-angular": "16.2.4",
+    "@types/node": "20.8.2",
+    "depcheck": "1.4.6",
+    "husky": "8.0.1"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-angular"
+    ]
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
