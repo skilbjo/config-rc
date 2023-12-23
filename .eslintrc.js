@@ -15,6 +15,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/strict',
     'plugin:typescript-sort-keys/recommended',
+    'plugin:security/recommended-legacy',
   ],
   globals: {
     Atomics: 'readonly',
@@ -65,6 +66,7 @@ module.exports = {
         trailingComma: 'es5',
       },
     ],
+    'security/detect-object-injection': 'off',
     'sort-keys-fix/sort-keys-fix': 'warn',
     'typescript-sort-keys/interface': 'warn',
   },
