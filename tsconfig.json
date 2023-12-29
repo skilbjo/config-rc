@@ -32,8 +32,8 @@
   "include": [
     "src/**/*.ts",
     "test/**/*.ts",
-    ".eslintrc.js",
-    "index.js"
+    ".eslintrc.cjs",
+    "index.cjs"
   ],
   "exclude": [
     "node_modules",
