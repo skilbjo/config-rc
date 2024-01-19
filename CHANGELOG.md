@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/affixapi/config-rc/compare/v1.0.4...v1.0.5) (2024-01-19)
+
+
+### Bug Fixes
+
+* **module:** remove export keyword ([9711407](https://github.com/affixapi/config-rc/commit/9711407529306c2ea1ff39beeca4d36de7a0aef4))
+
 ## [1.0.4](https://github.com/affixapi/config-rc/compare/v1.0.3...v1.0.4) (2024-01-19)
 
 
