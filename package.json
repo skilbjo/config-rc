@@ -4,7 +4,9 @@
   "version": "0.0.1",
   "description": "eslint, prettier, & tsconfig config",
   "main": "index.js",
-  "type": "module",
+
+  "type-unfortunately-this-cannot-be-set-due-to-utils-not-being-esm": "module",
+
   "scripts": {
     "prepare": "if [[ -z $GITHUB_ACTIONS ]]; then npx husky install; fi",
     "eslint": "eslint .",
