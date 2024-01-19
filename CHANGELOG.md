@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/affixapi/config-rc/compare/v1.0.3...v1.0.4) (2024-01-19)
+
+
+### Bug Fixes
+
+* **commonjs:** convert back to cjs ([77eb1f8](https://github.com/affixapi/config-rc/commit/77eb1f8e7ba37fd63c2eed482a4c9434317983e9))
+
 ## [1.0.3](https://github.com/affixapi/config-rc/compare/v1.0.2...v1.0.3) (2024-01-19)
 
 
