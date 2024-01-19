@@ -1,19 +1,18 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Node 18",
+  "display": "Node 20",
   "_version": "18.2.0",
-  "extends": "@tsconfig/node18/tsconfig.json",
+  "extends": "@tsconfig/node20/tsconfig.json",
   "compilerOptions": {
-    "module": "CommonJS",
+    "module": "ES2022",
     "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
     "target": "ES2022",
     "lib": [
       "ES2023"
     ],
+
     "outDir": "dist",
     "declaration": true,
-    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
@@ -33,7 +32,7 @@
     "src/**/*.ts",
     "test/**/*.ts",
     ".eslintrc.cjs",
-    "index.cjs"
+    "index.js"
   ],
   "exclude": [
     "node_modules",
