@@ -1,3 +1,12 @@
+## [1.0.2](https://github.com/affixapi/config-rc/compare/v1.0.1...v1.0.2) (2023-12-29)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 6.14.0 to 6.15.0 ([#18](https://github.com/affixapi/config-rc/issues/18)) ([b46d85d](https://github.com/affixapi/config-rc/commit/b46d85d285ea08cd7283631a4348bc52350fbc13))
+* **deps:** bump @typescript-eslint/parser from 6.14.0 to 6.15.0 ([#16](https://github.com/affixapi/config-rc/issues/16)) ([a5ea1ef](https://github.com/affixapi/config-rc/commit/a5ea1eff7f0ce869fd030ecf28da21408a9cdb9e))
+* **deps:** bump eslint-plugin-prettier from 5.0.1 to 5.1.2 ([#17](https://github.com/affixapi/config-rc/issues/17)) ([e7b5e1a](https://github.com/affixapi/config-rc/commit/e7b5e1a1d004592dd4eca089dc4e00f7b55e16f5))
+
 ## [1.0.1](https://github.com/affixapi/config-rc/compare/v1.0.0...v1.0.1) (2023-12-23)
 
 
