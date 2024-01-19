@@ -26,7 +26,6 @@ updates:
       - dependency-name: '@aws-sdk/util-dynamodb'
       - dependency-name: '@commitlint/cli'
       - dependency-name: '@commitlint/config-angular'
-      - dependency-name: typescript
     versioning-strategy: increase
     open-pull-requests-limit: 15
     commit-message:
