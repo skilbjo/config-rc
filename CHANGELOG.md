@@ -1,3 +1,13 @@
+## [1.0.7](https://github.com/affixapi/config-rc/compare/v1.0.6...v1.0.7) (2024-04-08)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @types/node from 20.11.30 to 20.12.2 ([#67](https://github.com/affixapi/config-rc/issues/67)) ([483e14e](https://github.com/affixapi/config-rc/commit/483e14ea331e6b01377c87def270380689d70414))
+* **deps-dev:** bump @types/node from 20.12.2 to 20.12.5 ([#70](https://github.com/affixapi/config-rc/issues/70)) ([b1569e0](https://github.com/affixapi/config-rc/commit/b1569e0adc19631de91b07ad92a7bb4fc4b04fce))
+* **deps:** bump @tsconfig/node20 from 20.1.3 to 20.1.4 ([#68](https://github.com/affixapi/config-rc/issues/68)) ([757daba](https://github.com/affixapi/config-rc/commit/757daba1b33c1241a59b2db752b6fa9b9566c225))
+* **deps:** bump eslint-plugin-jest from 27.9.0 to 28.2.0 ([#71](https://github.com/affixapi/config-rc/issues/71)) ([9608a75](https://github.com/affixapi/config-rc/commit/9608a75dc11a5d2e23ec531c2d9615463e37bd08))
+
 ## [1.0.6](https://github.com/affixapi/config-rc/compare/v1.0.5...v1.0.6) (2024-03-29)
 
 
