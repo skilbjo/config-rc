@@ -46,7 +46,7 @@
     "typescript": "5.4.4"
   },
   "devDependencies": {
-    "@commitlint/cli": "16.2.4",
+    "@commitlint/cli": "19.3.0",
     "@commitlint/config-angular": "16.2.4",
     "@types/node": "20.12.7",
     "depcheck": "1.4.7",
