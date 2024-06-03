@@ -43,7 +43,7 @@
     "eslint-plugin-typescript-sort-keys": "3.2.0",
     "eslint-plugin-security": "3.0.0",
     "prettier": "3.2.5",
-    "typescript": "5.4.4"
+    "typescript": "5.4.5"
   },
   "devDependencies": {
     "@commitlint/cli": "19.3.0",
