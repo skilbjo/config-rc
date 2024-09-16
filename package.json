@@ -1,6 +1,6 @@
 {
   "$schema":"https://json.schemastore.org/package",
-  "name": "@affixapi/config-rc",
+  "name": "@skilbjo/config-rc",
   "version": "0.0.1",
   "description": "eslint, prettier, & tsconfig config",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "depcheck": "depcheck",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "github:affixapi/config-rc.git",
+  "repository": "github:skilbjo/config-rc.git",
   "keywords": [
     "eslint",
     "eslintrc"
@@ -20,12 +20,12 @@
   "author": "skilbjo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/affixapi/config-rc/issues"
+    "url": "https://github.com/skilbjo/config-rc/issues"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/affixapi"
+    "registry": "https://npm.pkg.github.com/skilbjo"
   },
-  "homepage": "https://github.com/affixapi/config-rc#readme",
+  "homepage": "https://github.com/skilbjo/config-rc#readme",
   "dependencies": {
     "@tsconfig/node20": "20.1.4",
     "@types/jest": "29.5.12",

@@ -1,7 +1,5 @@
-export function One(): number {
-  return 1;
-}
+export const one = () => (): number => 1;
 
-export function Two(): number {
+export function two(): number {
   return 2;
 }
