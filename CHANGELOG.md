@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/skilbjo/config-rc/compare/v1.0.10...v1.0.11) (2024-10-05)
+
+
+### Bug Fixes
+
+* **ci:** config ([3a7931c](https://github.com/skilbjo/config-rc/commit/3a7931c97a30d9a2fa75d8d72c09a84bd06605c3))
+
 ## [1.0.10](https://github.com/skilbjo/config-rc/compare/v1.0.9...v1.0.10) (2024-10-05)
 
 
