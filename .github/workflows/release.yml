@@ -50,3 +50,15 @@ jobs:
         # then this step will update branch "v1" to this commit
         if: steps.semantic.outputs.new_release_published == 'true'
         run: "git push https://x-access-token:${{ secrets.ACTIONS_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git HEAD:refs/heads/v${{steps.semantic.outputs.new_release_major_version}}"
+
+      - name: prepare npm
+        run: |
+          npm --no-git-tag-version version ${{ steps.semantic.outputs.new_release_version }}
+          jq 'del(.repository, .publishConfig) | . + { publishConfig: { registry: "https://registry.npmjs.org/" } }' package.json >package2.json && mv package2.json package.json
+
+      - name: Publish to NPM
+        if: steps.semantic.outputs.new_release_published == 'true'
+        uses: JS-DevTools/npm-publish@v3
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          access: public
