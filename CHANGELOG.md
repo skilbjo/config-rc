@@ -1,3 +1,14 @@
+## [1.0.10](https://github.com/skilbjo/config-rc/compare/v1.0.9...v1.0.10) (2024-10-05)
+
+
+### Bug Fixes
+
+* **ci:** publish to npm ([11230a3](https://github.com/skilbjo/config-rc/commit/11230a3aa26cede7f53db260424af10fd52b8f05))
+* **deps-dev:** bump @types/node from 22.5.4 to 22.5.5 ([#150](https://github.com/skilbjo/config-rc/issues/150)) ([a501e0d](https://github.com/skilbjo/config-rc/commit/a501e0de2de7f17f456c9fa601c220c3476b6de8))
+* **deps-dev:** bump @types/node from 22.5.5 to 22.7.4 ([#156](https://github.com/skilbjo/config-rc/issues/156)) ([9fa1d99](https://github.com/skilbjo/config-rc/commit/9fa1d991e660dde44c29b4df0edab0e3027fce98))
+* **deps:** bump cycjimmy/semantic-release-action from 4.1.0 to 4.1.1 ([#157](https://github.com/skilbjo/config-rc/issues/157)) ([e30b975](https://github.com/skilbjo/config-rc/commit/e30b975b4ae502ddfbd828f0611e3e7b42a0db75))
+* **deps:** bump typescript from 5.5.4 to 5.6.2 ([#153](https://github.com/skilbjo/config-rc/issues/153)) ([4a7966c](https://github.com/skilbjo/config-rc/commit/4a7966cdda3b74ee3f4630c8a3053c93b061fae9))
+
 ## [1.0.9](https://github.com/skilbjo/config-rc/compare/v1.0.8...v1.0.9) (2024-09-16)
 
 
