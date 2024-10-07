@@ -31,11 +31,12 @@
   "include": [
     "src/**/*.ts",
     "test/**/*.ts",
-    ".eslintrc.cjs",
+    "eslint.config.mjs",
     "index.js"
   ],
   "exclude": [
     "node_modules",
+    ".eslintrc.cjs",
     "dist"
   ]
 }

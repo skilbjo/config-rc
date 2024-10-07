@@ -1,10 +1,9 @@
 {
-  "$schema":"https://json.schemastore.org/package",
+  "$schema": "https://json.schemastore.org/package",
   "name": "@skilbjo/config-rc",
   "version": "0.0.1",
   "description": "eslint, prettier, & tsconfig config",
   "main": "index.js",
-
   "scripts": {
     "prepare": "if [[ -z $GITHUB_ACTIONS ]]; then npx husky install; fi",
     "eslint": "eslint .",
@@ -29,28 +28,33 @@
   "dependencies": {
     "@tsconfig/node20": "20.1.4",
     "@types/jest": "29.5.12",
-    "@typescript-eslint/eslint-plugin": "7.17.0",
-    "@typescript-eslint/parser": "7.18.0",
-    "eslint": "8.57.0",
+    "@typescript-eslint/eslint-plugin": "8.8.0",
+    "@typescript-eslint/parser": "8.8.0",
+    "eslint": "9.12.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-config-typescript": "3.0.0",
     "eslint-import-resolver-typescript": "3.6.3",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-jest": "28.8.3",
-    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-n": "17.10.3",
     "eslint-plugin-prettier": "5.2.1",
+    "eslint-plugin-security": "3.0.1",
     "eslint-plugin-sort-keys-fix": "1.1.2",
     "eslint-plugin-typescript-sort-keys": "3.3.0",
-    "eslint-plugin-security": "3.0.1",
     "prettier": "3.3.3",
     "typescript": "5.6.2"
   },
   "devDependencies": {
     "@commitlint/cli": "19.3.0",
     "@commitlint/config-angular": "16.2.4",
+    "@eslint/compat": "1.2.0",
+    "@eslint/eslintrc": "3.1.0",
+    "@eslint/js": "9.12.0",
     "@types/node": "22.7.4",
     "depcheck": "1.4.7",
-    "husky": "8.0.1"
+    "globals": "15.10.0",
+    "husky": "8.0.1",
+    "typescript-eslint": "8.8.0"
   },
   "commitlint": {
     "extends": [
