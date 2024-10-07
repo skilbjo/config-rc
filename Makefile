@@ -18,9 +18,11 @@ clean:
 install: | target/install
 target/install:
 ifeq ($(is_ci), true)
-	npm ci
+	# https://github.com/infctr/eslint-plugin-typescript-sort-keys/issues/77
+	npm ci --force
 else
-	npm install
+	# https://github.com/infctr/eslint-plugin-typescript-sort-keys/issues/77
+	npm install --force
 endif
 	mkdir -p $(@D) && touch $@
 .PHONY: install
