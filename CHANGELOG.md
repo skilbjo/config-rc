@@ -1,3 +1,12 @@
+## [1.0.13](https://github.com/skilbjo/config-rc/compare/v1.0.12...v1.0.13) (2024-10-11)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-import from 2.30.0 to 2.31.0 ([#159](https://github.com/skilbjo/config-rc/issues/159)) ([6f51945](https://github.com/skilbjo/config-rc/commit/6f51945064c64bbb8296d246d846525a46768bab))
+* **deps:** bump eslint-plugin-typescript-sort-keys from 3.2.0 to 3.3.0 ([#161](https://github.com/skilbjo/config-rc/issues/161)) ([5e194b9](https://github.com/skilbjo/config-rc/commit/5e194b9f61bbf1805579378d34e535e40f1c4613))
+* **lint:** add perfectionist plugin ([2187e1e](https://github.com/skilbjo/config-rc/commit/2187e1e3657246161acb5279742c0a3af09421e7))
+
 ## [1.0.12](https://github.com/skilbjo/config-rc/compare/v1.0.11...v1.0.12) (2024-10-05)
 
 
