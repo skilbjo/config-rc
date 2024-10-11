@@ -1,10 +1,9 @@
 {
-  "$schema":"https://json.schemastore.org/package",
+  "$schema": "https://json.schemastore.org/package",
   "name": "@skilbjo/config-rc",
   "version": "0.0.1",
   "description": "eslint, prettier, & tsconfig config",
   "main": "index.js",
-
   "scripts": {
     "prepare": "if [[ -z $GITHUB_ACTIONS ]]; then npx husky install; fi",
     "eslint": "eslint .",
@@ -38,9 +37,8 @@
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-jest": "28.8.3",
     "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-perfectionist": "3.8.0",
     "eslint-plugin-prettier": "5.2.1",
-    "eslint-plugin-sort-keys-fix": "1.1.2",
-    "eslint-plugin-typescript-sort-keys": "3.3.0",
     "eslint-plugin-security": "3.0.1",
     "prettier": "3.3.3",
     "typescript": "5.6.2"

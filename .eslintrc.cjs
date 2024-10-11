@@ -8,13 +8,12 @@ module.exports = {
     'prettier',
     'typescript',
     'eslint:recommended',
-    'plugin:node/recommended',
-    'plugin:prettier/recommended',
-    'plugin:import/recommended',
-    'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/strict',
-    'plugin:typescript-sort-keys/recommended',
+    'plugin:import/recommended',
+    'plugin:import/typescript',
+    'plugin:node/recommended',
+    'plugin:prettier/recommended',
     'plugin:security/recommended-legacy',
   ],
   globals: {
@@ -28,12 +27,11 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
-    'prettier',
+    '@typescript-eslint',
     'import',
     'jest',
-    'sort-keys-fix',
-    'typescript-sort-keys',
-    '@typescript-eslint',
+    'prettier',
+    'perfectionist',
   ],
   reportUnusedDisableDirectives: true,
   rules: {
@@ -55,6 +53,7 @@ module.exports = {
     'node/no-missing-import': 'off', // conflicts with typescript absolute imports
     'node/no-unsupported-features/es-syntax': 'off',
     'node/shebang': 'off',
+    'perfectionist/sort-imports': 'error',
     'prettier/prettier': [
       'error',
       {
@@ -67,8 +66,6 @@ module.exports = {
       },
     ],
     'security/detect-object-injection': 'off',
-    'sort-keys-fix/sort-keys-fix': 'warn',
-    'typescript-sort-keys/interface': 'warn',
   },
   settings: {
     'import/parsers': {
