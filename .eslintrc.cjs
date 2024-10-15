@@ -15,6 +15,7 @@ module.exports = {
     'plugin:node/recommended',
     'plugin:prettier/recommended',
     'plugin:security/recommended-legacy',
+    'plugin:perfectionist/recommended-alphabetical-legacy',
   ],
   globals: {
     Atomics: 'readonly',
@@ -53,7 +54,8 @@ module.exports = {
     'node/no-missing-import': 'off', // conflicts with typescript absolute imports
     'node/no-unsupported-features/es-syntax': 'off',
     'node/shebang': 'off',
-    'perfectionist/sort-imports': 'error',
+    'perfectionist/sort-exports': 'off',
+    'perfectionist/sort-imports': 'off',
     'prettier/prettier': [
       'error',
       {
