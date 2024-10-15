@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/skilbjo/config-rc/compare/v1.0.14...v1.0.15) (2024-10-15)
+
+
+### Bug Fixes
+
+* swap deprecated with current plugin ([c425d1b](https://github.com/skilbjo/config-rc/commit/c425d1bc29c35f07035aa3ead34a3d5a28daf27f))
+
 ## [1.0.14](https://github.com/skilbjo/config-rc/compare/v1.0.13...v1.0.14) (2024-10-15)
 
 
