@@ -1,3 +1,10 @@
+## [1.0.16](https://github.com/skilbjo/config-rc/compare/v1.0.15...v1.0.16) (2024-10-15)
+
+
+### Bug Fixes
+
+* eslint@9 ([#166](https://github.com/skilbjo/config-rc/issues/166)) ([72cdf4b](https://github.com/skilbjo/config-rc/commit/72cdf4b428954a701680199881df374b00f5f46e))
+
 ## [1.0.15](https://github.com/skilbjo/config-rc/compare/v1.0.14...v1.0.15) (2024-10-15)
 
 
