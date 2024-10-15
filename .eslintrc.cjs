@@ -12,7 +12,7 @@ module.exports = {
     'plugin:@typescript-eslint/strict',
     'plugin:import/recommended',
     'plugin:import/typescript',
-    'plugin:node/recommended',
+    'plugin:n/recommended',
     'plugin:prettier/recommended',
     'plugin:security/recommended-legacy',
     'plugin:perfectionist/recommended-alphabetical-legacy',
@@ -50,10 +50,10 @@ module.exports = {
     'import/no-duplicates': 2,
     'import/no-unresolved': 2,
     'import/order': 2,
+    'n/no-missing-import': 'off', // conflicts with typescript absolute imports
+    'n/no-unsupported-features/es-syntax': 'off',
+    'n/shebang': 'off',
     'no-multiple-empty-lines': [2, { max: 1, maxEOF: 0 }],
-    'node/no-missing-import': 'off', // conflicts with typescript absolute imports
-    'node/no-unsupported-features/es-syntax': 'off',
-    'node/shebang': 'off',
     'perfectionist/sort-exports': 'off',
     'perfectionist/sort-imports': 'off',
     'prettier/prettier': [
