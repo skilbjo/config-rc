@@ -3,5 +3,9 @@ ignores: [
   '@commitlint/config-angular',
   '@tsconfig/node18',
   '@types/jest',
-  'husky'
+  'husky',
+  'eslint-import-resolver-typescript',
+  'eslint-plugin-n',
+  'eslint-plugin-security',
+  'typescript',
 ]
