@@ -1,3 +1,11 @@
+## [1.0.14](https://github.com/skilbjo/config-rc/compare/v1.0.13...v1.0.14) (2024-10-15)
+
+
+### Bug Fixes
+
+* **deps:** bump typescript from 5.6.2 to 5.6.3 ([#163](https://github.com/skilbjo/config-rc/issues/163)) ([522da70](https://github.com/skilbjo/config-rc/commit/522da709d4a2b96b924fc70962e97dfa431d92be))
+* update config ([8e1fccd](https://github.com/skilbjo/config-rc/commit/8e1fccd5fb3e7aae73dddc47266300abb25962a8))
+
 ## [1.0.13](https://github.com/skilbjo/config-rc/compare/v1.0.12...v1.0.13) (2024-10-11)
 
 
