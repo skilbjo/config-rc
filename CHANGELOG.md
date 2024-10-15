@@ -1,3 +1,10 @@
+## [1.0.17](https://github.com/skilbjo/config-rc/compare/v1.0.16...v1.0.17) (2024-10-15)
+
+
+### Bug Fixes
+
+* use correct file ([fdd218f](https://github.com/skilbjo/config-rc/commit/fdd218f19420d17e15d764d87cbee6f58a23dd0d))
+
 ## [1.0.16](https://github.com/skilbjo/config-rc/compare/v1.0.15...v1.0.16) (2024-10-15)
 
 
