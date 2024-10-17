@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
+/* eslint-disable @typescript-eslint/no-require-imports, n/no-unpublished-require */
 const path = require('path');
 const { fixupConfigRules, fixupPluginRules } = require('@eslint/compat');
 const { FlatCompat } = require('@eslint/eslintrc');
