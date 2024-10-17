@@ -1,3 +1,13 @@
+## [1.0.18](https://github.com/skilbjo/config-rc/compare/v1.0.17...v1.0.18) (2024-10-17)
+
+
+### Reverts
+
+* Revert "fix: eslint@9 (#166)" ([1ca2d76](https://github.com/skilbjo/config-rc/commit/1ca2d7635b0541d432a781304312deb4c8c4e20f)), closes [#166](https://github.com/skilbjo/config-rc/issues/166)
+* Revert "docs(release): 1.0.16 [skip ci]" ([e0b0fb1](https://github.com/skilbjo/config-rc/commit/e0b0fb14232c550a544230571139668f150fbed1))
+* Revert "fix: use correct file" ([b47e903](https://github.com/skilbjo/config-rc/commit/b47e9035013e9c8dc2d82976f3327a0f2a55e91b))
+* Revert "docs(release): 1.0.17 [skip ci]" ([7f55c51](https://github.com/skilbjo/config-rc/commit/7f55c51cfdc3ac792a3715dc2ccb2aa43f79a03f))
+
 ## [1.0.15](https://github.com/skilbjo/config-rc/compare/v1.0.14...v1.0.15) (2024-10-15)
 
 
