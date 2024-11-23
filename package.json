@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/skilbjo/config-rc#readme",
   "dependencies": {
-    "@tsconfig/node20": "20.1.4",
+    "@tsconfig/node22": "22.0.0",
     "@types/jest": "29.5.14",
     "@typescript-eslint/eslint-plugin": "7.17.0",
     "@typescript-eslint/parser": "7.18.0",
@@ -56,6 +56,6 @@
     ]
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=20.0.0"
   }
 }
