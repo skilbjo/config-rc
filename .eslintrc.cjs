@@ -50,7 +50,10 @@ module.exports = {
     'import/no-duplicates': 2,
     'import/no-unresolved': 2,
     'import/order': 2,
+    'n/hashbang': 'off',
+    'n/no-extraneous-import': 'off',
     'n/no-missing-import': 'off', // conflicts with typescript absolute imports
+    'n/no-process-exit': 'off',
     'n/no-unsupported-features/es-syntax': 'off',
     'n/shebang': 'off',
     'no-multiple-empty-lines': [2, { max: 1, maxEOF: 0 }],
