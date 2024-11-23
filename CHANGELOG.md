@@ -1,3 +1,10 @@
+## [1.0.20](https://github.com/skilbjo/config-rc/compare/v1.0.19...v1.0.20) (2024-11-23)
+
+
+### Bug Fixes
+
+* update rules ([2f293ae](https://github.com/skilbjo/config-rc/commit/2f293aee25efa2485c3bf6738a6053232ddabd27))
+
 ## [1.0.19](https://github.com/skilbjo/config-rc/compare/v1.0.18...v1.0.19) (2024-11-23)
 
 
