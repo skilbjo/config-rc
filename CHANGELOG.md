@@ -1,3 +1,20 @@
+## [1.0.19](https://github.com/skilbjo/config-rc/compare/v1.0.18...v1.0.19) (2024-11-23)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @types/node from 22.7.4 to 22.7.7 ([#167](https://github.com/skilbjo/config-rc/issues/167)) ([5d1df81](https://github.com/skilbjo/config-rc/commit/5d1df81fbd3049ecd1dfeefe1a35a7b077eae5b8))
+* **deps-dev:** bump @types/node from 22.7.7 to 22.8.7 ([#177](https://github.com/skilbjo/config-rc/issues/177)) ([aed6efd](https://github.com/skilbjo/config-rc/commit/aed6efd7f505952ba26cd0c02822802ed8982d8f))
+* **deps-dev:** bump @types/node from 22.8.7 to 22.9.0 ([#181](https://github.com/skilbjo/config-rc/issues/181)) ([95a0188](https://github.com/skilbjo/config-rc/commit/95a01882b994655f74c892d2e5b660fa6d31d8c7))
+* **deps:** bump @types/jest from 29.5.12 to 29.5.14 ([#172](https://github.com/skilbjo/config-rc/issues/172)) ([938153a](https://github.com/skilbjo/config-rc/commit/938153a618a369238d47b83a474eafac33c27398))
+* **deps:** bump cross-spawn from 7.0.3 to 7.0.5 ([#185](https://github.com/skilbjo/config-rc/issues/185)) ([bcdb494](https://github.com/skilbjo/config-rc/commit/bcdb494408719b8e4e839ab4d5187cdeb790c16a))
+* **deps:** bump eslint-plugin-jest from 28.8.3 to 28.9.0 ([#180](https://github.com/skilbjo/config-rc/issues/180)) ([092a55c](https://github.com/skilbjo/config-rc/commit/092a55c27a7abe937303c67a4a8460d96fa1407f))
+* **deps:** bump eslint-plugin-n from 17.10.3 to 17.11.1 ([#169](https://github.com/skilbjo/config-rc/issues/169)) ([702b249](https://github.com/skilbjo/config-rc/commit/702b249c164dbb268da21676beda0f66c9e47ef6))
+* **deps:** bump eslint-plugin-n from 17.11.1 to 17.13.1 ([#182](https://github.com/skilbjo/config-rc/issues/182)) ([572752a](https://github.com/skilbjo/config-rc/commit/572752a55b390971f61094b6522e5888d7a45191))
+* **deps:** bump eslint-plugin-n from 17.13.1 to 17.13.2 ([#183](https://github.com/skilbjo/config-rc/issues/183)) ([73181de](https://github.com/skilbjo/config-rc/commit/73181de61e083480f6c8a79a30b2f832ee260bb4))
+* **deps:** bump eslint-plugin-perfectionist from 3.8.0 to 3.9.1 ([#168](https://github.com/skilbjo/config-rc/issues/168)) ([d275674](https://github.com/skilbjo/config-rc/commit/d275674818ae8fd4b790315e5b75ee383cbbc15e))
+* use @tsconfig/node22 ([e0914d5](https://github.com/skilbjo/config-rc/commit/e0914d521eab149b0f320b6bf418c44e2bfebf42))
+
 ## [1.0.18](https://github.com/skilbjo/config-rc/compare/v1.0.17...v1.0.18) (2024-10-17)
 
 
