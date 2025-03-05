@@ -1,3 +1,10 @@
+## [1.0.22](https://github.com/skilbjo/config-rc/compare/v1.0.21...v1.0.22) (2025-03-05)
+
+
+### Bug Fixes
+
+* update permissions ([236a186](https://github.com/skilbjo/config-rc/commit/236a186f66e29374a6509f3cae2506a21b32a373))
+
 ## [1.0.21](https://github.com/skilbjo/config-rc/compare/v1.0.20...v1.0.21) (2025-03-05)
 
 
