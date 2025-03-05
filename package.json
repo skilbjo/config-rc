@@ -4,6 +4,16 @@
   "version": "0.0.1",
   "description": "eslint, prettier, & tsconfig config",
   "main": "index.js",
+  "private": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public",
+    "provenance": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skilbjo/config-rc.git"
+  },
   "scripts": {
     "prepare": "if [[ -z $GITHUB_ACTIONS ]]; then npx husky install; fi",
     "eslint": "eslint .",
@@ -11,7 +21,6 @@
     "depcheck": "depcheck",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "github:skilbjo/config-rc.git",
   "keywords": [
     "eslint",
     "eslintrc"
@@ -20,9 +29,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/skilbjo/config-rc/issues"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/skilbjo"
   },
   "homepage": "https://github.com/skilbjo/config-rc#readme",
   "dependencies": {
