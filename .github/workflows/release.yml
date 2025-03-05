@@ -61,6 +61,7 @@ jobs:
         run: "git push https://x-access-token:${{ secrets.ACTIONS_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git HEAD:refs/heads/v${{steps.semantic.outputs.new_release_major_version}}"
 
       - name: prepare npm
+        if: steps.semantic.outputs.new_release_published == 'true'
         run: |
           # npm --no-git-tag-version version ${{ steps.semantic.outputs.new_release_version }}
           jq 'del(.publishConfig) | . + { publishConfig: { registry: "https://registry.npmjs.org/", "access": "public", "provenance": true } }' package.json >package2.json && mv package2.json package.json
