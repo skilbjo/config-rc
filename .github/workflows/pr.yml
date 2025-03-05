@@ -12,6 +12,7 @@ defaults:
 permissions:
   pull-requests: write
   contents: write
+  id-token: write
 
 jobs:
   build-and-test:
