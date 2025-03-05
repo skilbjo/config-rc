@@ -1,3 +1,10 @@
+## [1.0.23](https://github.com/skilbjo/config-rc/compare/v1.0.22...v1.0.23) (2025-03-05)
+
+
+### Bug Fixes
+
+* provenance error ([ae8889a](https://github.com/skilbjo/config-rc/commit/ae8889a4762b5a353d01d7d2c36301bd75a2ed93))
+
 ## [1.0.22](https://github.com/skilbjo/config-rc/compare/v1.0.21...v1.0.22) (2025-03-05)
 
 
