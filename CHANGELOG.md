@@ -1,3 +1,10 @@
+## [1.0.25](https://github.com/skilbjo/config-rc/compare/v1.0.24...v1.0.25) (2025-08-29)
+
+
+### Bug Fixes
+
+* enable provenance ([6062eb7](https://github.com/skilbjo/config-rc/commit/6062eb7c39a37873c824d33bc9d0232ee88c9d14))
+
 ## [1.0.24](https://github.com/skilbjo/config-rc/compare/v1.0.23...v1.0.24) (2025-08-29)
 
 
