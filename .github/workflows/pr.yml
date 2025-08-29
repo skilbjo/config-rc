@@ -16,6 +16,8 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    if: github.event.pull_request.head.repo.full_name == github.repository # Security: Only run on PRs from the same repository
+
     steps:
       - uses: actions/checkout@v5
         with:
@@ -58,6 +60,7 @@ jobs:
     needs: build-and-test
     timeout-minutes: 2
     if: ${{ github.actor == 'dependabot[bot]' }}
+
     steps:
       - uses: dependabot/fetch-metadata@v2.4.0
         with:
