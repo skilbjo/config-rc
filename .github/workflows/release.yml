@@ -17,6 +17,7 @@ jobs:
     timeout-minutes: 10
     permissions:
       packages: write
+      id-token: write  # Required for npm provenance generation
 
     outputs:
       new_release_version:   ${{ steps.semantic.outputs.new_release_version }}
@@ -63,6 +64,8 @@ jobs:
         run: |
           # npm --no-git-tag-version version ${{ steps.semantic.outputs.new_release_version }}
           jq 'del(.publishConfig) | . + { publishConfig: { registry: "https://registry.npmjs.org/", "access": "public", "provenance": true } }' package.json >package2.json && mv package2.json package.json
+          # Ensure npm provenance is enabled
+          npm config set provenance true
 
       - name: Publish to NPM
         if: steps.semantic.outputs.new_release_published == 'true'

@@ -15,7 +15,7 @@
     "url": "git+https://github.com/skilbjo/config-rc.git"
   },
   "scripts": {
-    "prepare": "if [[ -z $GITHUB_ACTIONS ]]; then npx husky install; fi",
+    "prepare": "if [ -z \"$GITHUB_ACTIONS\" ]; then npx husky install; fi",
     "eslint": "eslint .",
     "lint": "npm run eslint",
     "depcheck": "depcheck",
