@@ -1,3 +1,10 @@
+## [1.0.26](https://github.com/skilbjo/config-rc/compare/v1.0.25...v1.0.26) (2025-08-30)
+
+
+### Bug Fixes
+
+* trusted publishing with no token ([98bfa61](https://github.com/skilbjo/config-rc/commit/98bfa611e031e9fcf6c9a1b6363354552ddde513))
+
 ## [1.0.25](https://github.com/skilbjo/config-rc/compare/v1.0.24...v1.0.25) (2025-08-29)
 
 
