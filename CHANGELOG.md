@@ -1,3 +1,10 @@
+## [1.0.27](https://github.com/skilbjo/config-rc/compare/v1.0.26...v1.0.27) (2025-08-30)
+
+
+### Bug Fixes
+
+* disallow tokens to see if it works ([f95ab05](https://github.com/skilbjo/config-rc/commit/f95ab057507e9ef7aea9e8cd540a82f74f438d95))
+
 ## [1.0.26](https://github.com/skilbjo/config-rc/compare/v1.0.25...v1.0.26) (2025-08-30)
 
 
