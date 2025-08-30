@@ -64,13 +64,9 @@ jobs:
         if: steps.semantic.outputs.new_release_published == 'true'
         run: |
           # npm --no-git-tag-version version ${{ steps.semantic.outputs.new_release_version }}
-          jq 'del(.publishConfig) | . + { publishConfig: { registry: "https://registry.npmjs.org/", "access": "public", "provenance": true } }' package.json >package2.json && mv package2.json package.json
-          # Ensure npm provenance is enabled
-          npm config set provenance true
+          npm run prepare-npm
 
       - name: Publish to NPM
         if: steps.semantic.outputs.new_release_published == 'true'
-        uses: JS-DevTools/npm-publish@v3
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          access: public
+        run: |
+          npm publish

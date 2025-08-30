@@ -19,7 +19,8 @@
     "eslint": "eslint .",
     "lint": "npm run eslint",
     "depcheck": "depcheck",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare-npm": "jq 'del(.publishConfig) | . + { publishConfig: { registry: \"https://registry.npmjs.org/\", access: \"public\", provenance: true } }' package.json >package2.json && mv package2.json package.json"
   },
   "keywords": [
     "eslint",
