@@ -37,7 +37,7 @@ jobs:
 
       - run: make ci
 
-      - uses: cycjimmy/semantic-release-action@v4
+      - uses: cycjimmy/semantic-release-action@v5
         id: semantic
         with:
           semantic_version: 24
