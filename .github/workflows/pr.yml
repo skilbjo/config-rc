@@ -19,6 +19,9 @@ jobs:
       pull-requests: read # Needed to read PR information
 
     steps:
+      - uses: step-security/harden-runner@v2
+        with:
+          egress-policy: audit
       - uses: actions/checkout@v5
         with:
           ref: ${{ github.event.pull_request.head.sha }}
