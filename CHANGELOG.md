@@ -1,3 +1,12 @@
+## [1.0.28](https://github.com/skilbjo/config-rc/compare/v1.0.27...v1.0.28) (2025-09-08)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @types/node from 24.3.0 to 24.3.1 ([#381](https://github.com/skilbjo/config-rc/issues/381)) ([9f2ec1b](https://github.com/skilbjo/config-rc/commit/9f2ec1bc397d66a4de7ac34a11f629057650c357))
+* **deps:** bump actions/setup-node from 4 to 5 ([#382](https://github.com/skilbjo/config-rc/issues/382)) ([6caed29](https://github.com/skilbjo/config-rc/commit/6caed293878cf226c63d9f74afd720d2f76d6c09))
+* **deps:** bump cycjimmy/semantic-release-action from 4 to 5 ([#378](https://github.com/skilbjo/config-rc/issues/378)) ([8eb32f7](https://github.com/skilbjo/config-rc/commit/8eb32f75f05c1e89dac1e36f773d1ff9a8909945))
+
 ## [1.0.27](https://github.com/skilbjo/config-rc/compare/v1.0.26...v1.0.27) (2025-08-30)
 
 
