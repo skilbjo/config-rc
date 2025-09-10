@@ -1,3 +1,10 @@
+## [1.0.29](https://github.com/skilbjo/config-rc/compare/v1.0.28...v1.0.29) (2025-09-10)
+
+
+### Bug Fixes
+
+* **deps:** bump deps ([#385](https://github.com/skilbjo/config-rc/issues/385)) ([ff556fa](https://github.com/skilbjo/config-rc/commit/ff556fa139f26755a66e9fb382a76ba003395b22))
+
 ## [1.0.28](https://github.com/skilbjo/config-rc/compare/v1.0.27...v1.0.28) (2025-09-08)
 
 
