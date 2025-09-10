@@ -1,3 +1,4 @@
+/* eslint-disable perfectionist/sort-objects */
 module.exports = {
   env: {
     es6: true,
@@ -21,10 +22,8 @@ module.exports = {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
-  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2022,
-    project: './tsconfig.json',
     sourceType: 'module',
   },
   plugins: [
@@ -35,10 +34,23 @@ module.exports = {
     'perfectionist',
   ],
   reportUnusedDisableDirectives: true,
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      parser: '@typescript-eslint/parser',
+      parserOptions: {
+        ecmaVersion: 2022,
+        project: './tsconfig.json',
+        sourceType: 'module',
+      },
+      rules: {
+        '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+        '@typescript-eslint/no-floating-promises': 'error',
+        '@typescript-eslint/no-misused-promises': 'error',
+      },
+    },
+  ],
   rules: {
-    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
-    '@typescript-eslint/no-floating-promises': 'error',
-    '@typescript-eslint/no-misused-promises': 'error',
     '@typescript-eslint/no-non-null-assertion': 1,
     '@typescript-eslint/no-unused-vars': 1,
     eqeqeq: 2,
