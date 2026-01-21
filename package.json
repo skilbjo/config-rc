@@ -3,8 +3,12 @@
   "name": "@skilbjo/config-rc",
   "version": "0.0.1",
   "description": "eslint, prettier, & tsconfig config",
-  "type": "module",
   "main": "index.js",
+  "exports": {
+    "module": "./index.js",
+    "require": "./index.js",
+    "default": "./index.js"
+  },
   "private": false,
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
@@ -45,7 +49,7 @@
     "eslint-plugin-prettier": "5.5.5",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-security": "3.0.1",
-    "eslint-plugin-perfectionist": "5.3.1",
+    "eslint-plugin-perfectionist": "4.15.1",
     "globals": "17.0.0",
     "eslint-import-resolver-typescript": "4.4.4",
     "prettier": "3.8.0",

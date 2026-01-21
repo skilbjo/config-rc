@@ -1,16 +1,15 @@
 /* eslint-disable perfectionist/sort-objects */
-/* eslint-disable import/no-named-as-default-member */
-import eslint from '@eslint/js';
-import tseslint from 'typescript-eslint';
-import importPlugin from 'eslint-plugin-import';
-import nPlugin from 'eslint-plugin-n';
-import jestPlugin from 'eslint-plugin-jest';
-import prettierPlugin from 'eslint-plugin-prettier';
-import securityPlugin from 'eslint-plugin-security';
-import perfectionistPlugin from 'eslint-plugin-perfectionist';
-import globals from 'globals';
+const eslint = require('@eslint/js');
+const tseslint = require('typescript-eslint');
+const importPlugin = require('eslint-plugin-import');
+const nPlugin = require('eslint-plugin-n');
+const jestPlugin = require('eslint-plugin-jest');
+const prettierPlugin = require('eslint-plugin-prettier');
+const securityPlugin = require('eslint-plugin-security');
+const perfectionistPlugin = require('eslint-plugin-perfectionist');
+const globals = require('globals');
 
-export const baseConfig = tseslint.config(
+const baseConfig = tseslint.config(
   {
     ignores: ['target/**', 'node_modules/**', '.git/**'],
   },
@@ -115,4 +114,4 @@ export const baseConfig = tseslint.config(
   }
 );
 
-export default baseConfig;
+module.exports = { baseConfig };
