@@ -1,3 +1,10 @@
+## [1.0.35](https://github.com/skilbjo/config-rc/compare/v1.0.34...v1.0.35) (2026-01-22)
+
+
+### Bug Fixes
+
+* remove stylistic/indent ([9a82c05](https://github.com/skilbjo/config-rc/commit/9a82c0599883b0ee2358aceac87341ab38a727fa))
+
 ## [1.0.34](https://github.com/skilbjo/config-rc/compare/v1.0.33...v1.0.34) (2026-01-22)
 
 
