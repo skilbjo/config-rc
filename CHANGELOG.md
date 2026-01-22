@@ -1,3 +1,14 @@
+## [1.0.34](https://github.com/skilbjo/config-rc/compare/v1.0.33...v1.0.34) (2026-01-22)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @types/node from 25.0.9 to 25.0.10 ([#471](https://github.com/skilbjo/config-rc/issues/471)) ([647b4e5](https://github.com/skilbjo/config-rc/commit/647b4e537a9118eabfbf0e3bc28c2f09b42a2300))
+* **deps:** bump actions/checkout from 5 to 6 ([#429](https://github.com/skilbjo/config-rc/issues/429)) ([18484e9](https://github.com/skilbjo/config-rc/commit/18484e9c5ae09d92f72d9b75217dfb9ed7932712))
+* **deps:** bump eslint-plugin-perfectionist from 4.15.1 to 5.3.1 ([#472](https://github.com/skilbjo/config-rc/issues/472)) ([1c86d4d](https://github.com/skilbjo/config-rc/commit/1c86d4d3bc20e6ed8e6f65eaf49f0d1a2e3c9c04))
+* **deps:** bump prettier from 3.8.0 to 3.8.1 ([#470](https://github.com/skilbjo/config-rc/issues/470)) ([0e9f723](https://github.com/skilbjo/config-rc/commit/0e9f723e11e3fd31e7bbf68b0261c241727b1386))
+* **lint:** no newlines, no tabs ([83ca165](https://github.com/skilbjo/config-rc/commit/83ca1652d41b12f559dd9922a8e59d37062ff7b0))
+
 ## [1.0.33](https://github.com/skilbjo/config-rc/compare/v1.0.32...v1.0.33) (2026-01-22)
 
 
