@@ -1,3 +1,10 @@
+## [1.0.31](https://github.com/skilbjo/config-rc/compare/v1.0.30...v1.0.31) (2026-01-22)
+
+
+### Bug Fixes
+
+* update export ([322f58d](https://github.com/skilbjo/config-rc/commit/322f58d35149cea78c0995799c445e40ac7e77e9))
+
 ## [1.0.30](https://github.com/skilbjo/config-rc/compare/v1.0.29...v1.0.30) (2026-01-21)
 
 
