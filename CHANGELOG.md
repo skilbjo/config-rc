@@ -1,3 +1,11 @@
+## [1.0.32](https://github.com/skilbjo/config-rc/compare/v1.0.31...v1.0.32) (2026-01-22)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump lodash in the npm_and_yarn group across 1 directory ([#469](https://github.com/skilbjo/config-rc/issues/469)) ([75c01c6](https://github.com/skilbjo/config-rc/commit/75c01c6729f13701c99aee1878b45f97748c543c))
+* still adjusting for eslint9 ([38df363](https://github.com/skilbjo/config-rc/commit/38df363b48efcba46d78a03ff1a8870260855f04))
+
 ## [1.0.31](https://github.com/skilbjo/config-rc/compare/v1.0.30...v1.0.31) (2026-01-22)
 
 
