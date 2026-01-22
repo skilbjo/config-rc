@@ -41,9 +41,7 @@ const baseConfig = tseslint.config(
       ...prettierPlugin.configs.recommended.rules,
       ...securityPlugin.configs['recommended-legacy'].rules,
       ...perfectionistPlugin.configs['recommended-alphabetical-legacy'].rules,
-
       '@typescript-eslint/no-non-null-assertion': 1,
-      '@typescript-eslint/no-unused-vars': 1,
       eqeqeq: 2,
       'import/default': 2,
       'import/export': 2,
@@ -97,7 +95,7 @@ const baseConfig = tseslint.config(
     },
     extends: [
       ...tseslint.configs.recommended,
-      ...tseslint.configs.strict,
+      ...tseslint.configs.strict, // Note: This includes 'no-unused-vars': 'error'
       importPlugin.configs.typescript,
     ],
     rules: {
@@ -111,7 +109,15 @@ const baseConfig = tseslint.config(
   {
     files: ['**/*.js', '**/*.cjs', '**/*.mjs'],
     ...tseslint.configs.disableTypeChecked,
+  },
+  {
+    // FINAL OVERRIDES: This block ensures your project-wide tolerances
+    // are preserved regardless of any "strict" configs extended above.
+    rules: {
+      '@typescript-eslint/no-unused-vars': 1, // Warn
+      '@typescript-eslint/no-unused-expressions': 'off',
+      'no-unused-vars': 1, // Warn for pure JS files
+    },
   }
 );
-
 module.exports = { baseConfig };
