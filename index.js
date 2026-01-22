@@ -9,7 +9,7 @@ const securityPlugin = require('eslint-plugin-security');
 const perfectionistPlugin = require('eslint-plugin-perfectionist');
 const globals = require('globals');
 
-const baseConfig = tseslint.config(
+const config = tseslint.config(
   {
     ignores: ['target/**', 'node_modules/**', '.git/**'],
   },
@@ -120,4 +120,4 @@ const baseConfig = tseslint.config(
     },
   }
 );
-module.exports = { baseConfig };
+module.exports = { config };
