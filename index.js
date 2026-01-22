@@ -7,6 +7,7 @@ const jestPlugin = require('eslint-plugin-jest');
 const prettierPlugin = require('eslint-plugin-prettier');
 const securityPlugin = require('eslint-plugin-security');
 const perfectionistPlugin = require('eslint-plugin-perfectionist');
+const stylisticPlugin = require('@stylistic/eslint-plugin');
 const globals = require('globals');
 
 const config = tseslint.config(
@@ -33,6 +34,7 @@ const config = tseslint.config(
       perfectionist: perfectionistPlugin,
       jest: jestPlugin,
       '@typescript-eslint': tseslint.plugin,
+      '@stylistic': stylisticPlugin,
     },
     rules: {
       ...eslint.configs.recommended.rules,
@@ -58,6 +60,26 @@ const config = tseslint.config(
       'n/no-unsupported-features/es-syntax': 'off',
       'n/shebang': 'off',
       'no-multiple-empty-lines': [2, { max: 1, maxEOF: 0 }],
+      '@stylistic/eol-last': ['error', 'always'],
+      '@stylistic/no-trailing-spaces': 'error',
+      '@stylistic/indent': [
+        'error',
+        2,
+        {
+          SwitchCase: 1,
+          VariableDeclarator: 1,
+          outerIIFEBody: 1,
+          MemberExpression: 1,
+          FunctionDeclaration: { parameters: 1, body: 1 },
+          FunctionExpression: { parameters: 1, body: 1 },
+          CallExpression: { arguments: 1 },
+          ArrayExpression: 1,
+          ObjectExpression: 1,
+          ImportDeclaration: 1,
+          flatTernaryExpressions: false,
+          ignoreComments: false,
+        },
+      ],
       'perfectionist/sort-exports': 'off',
       'perfectionist/sort-imports': 'off',
       'prettier/prettier': [
@@ -120,4 +142,5 @@ const config = tseslint.config(
     },
   }
 );
+
 module.exports = { config };
