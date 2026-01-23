@@ -1,3 +1,10 @@
+## [1.0.36](https://github.com/skilbjo/config-rc/compare/v1.0.35...v1.0.36) (2026-01-23)
+
+
+### Bug Fixes
+
+* esm only ([4af35cf](https://github.com/skilbjo/config-rc/commit/4af35cf5d9d8c38c15f6fb111ad1c0180de731b3))
+
 ## [1.0.35](https://github.com/skilbjo/config-rc/compare/v1.0.34...v1.0.35) (2026-01-22)
 
 
