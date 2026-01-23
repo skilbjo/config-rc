@@ -3,6 +3,7 @@
   "name": "@skilbjo/config-rc",
   "version": "0.0.1",
   "description": "eslint, prettier, & tsconfig config",
+  "type": "module",
   "main": "index.js",
   "exports": {
     ".": "./index.js",

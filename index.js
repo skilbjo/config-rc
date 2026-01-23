@@ -1,14 +1,16 @@
 /* eslint-disable perfectionist/sort-objects */
-const eslint = require('@eslint/js');
-const tseslint = require('typescript-eslint');
-const importPlugin = require('eslint-plugin-import');
-const nPlugin = require('eslint-plugin-n');
-const jestPlugin = require('eslint-plugin-jest');
-const prettierPlugin = require('eslint-plugin-prettier');
-const securityPlugin = require('eslint-plugin-security');
-const perfectionistPlugin = require('eslint-plugin-perfectionist');
-const stylisticPlugin = require('@stylistic/eslint-plugin');
-const globals = require('globals');
+import eslint from '@eslint/js';
+import * as tseslint from 'typescript-eslint';
+import importPlugin from 'eslint-plugin-import';
+import nPlugin from 'eslint-plugin-n';
+import jestPlugin from 'eslint-plugin-jest';
+import prettierPlugin from 'eslint-plugin-prettier';
+import securityPlugin from 'eslint-plugin-security';
+import perfectionistPlugin, {
+  configs as perfectionistConfigs,
+} from 'eslint-plugin-perfectionist';
+import stylisticPlugin from '@stylistic/eslint-plugin';
+import globals from 'globals';
 
 const config = tseslint.config(
   {
@@ -42,7 +44,7 @@ const config = tseslint.config(
       ...nPlugin.configs.recommended.rules,
       ...prettierPlugin.configs.recommended.rules,
       ...securityPlugin.configs['recommended-legacy'].rules,
-      ...perfectionistPlugin.configs['recommended-alphabetical-legacy'].rules,
+      ...perfectionistConfigs['recommended-alphabetical-legacy'].rules,
       '@typescript-eslint/no-non-null-assertion': 1,
       eqeqeq: 2,
       'import/default': 2,
@@ -125,4 +127,4 @@ const config = tseslint.config(
   }
 );
 
-module.exports = { config };
+export { config };

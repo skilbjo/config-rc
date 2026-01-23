@@ -9,7 +9,7 @@
       "verifyConditionsCmd": "make ci",
     }],
     ["@semantic-release/github", {
-      assets: [".eslintrc.js", "index.js"]
+      assets: ["eslint.config.mjs", "index.js"]
     }],
     ["@semantic-release/npm"],
     ["@semantic-release/git", {

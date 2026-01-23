@@ -4,8 +4,8 @@
   "_version": "22.0.0",
   "extends": "@tsconfig/node22/tsconfig.json",
   "compilerOptions": {
-    "module": "CommonJS",
-    "moduleResolution": "node",
+    "module": "ESNext",
+    "moduleResolution": "nodenext",
     "target": "ES2022",
     "lib": [
       "ES2023"
@@ -31,7 +31,6 @@
   "include": [
     "src/**/*.ts",
     "test/**/*.ts",
-    ".eslintrc.cjs",
     "index.js"
   ],
   "exclude": [
