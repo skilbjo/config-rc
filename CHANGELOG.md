@@ -1,3 +1,10 @@
+## [1.0.38](https://github.com/skilbjo/config-rc/compare/v1.0.37...v1.0.38) (2026-02-05)
+
+
+### Bug Fixes
+
+* module+moduleResolution changes ([7fa542e](https://github.com/skilbjo/config-rc/commit/7fa542e7a824fd60830138a6bc794fd200ad7f38))
+
 ## [1.0.37](https://github.com/skilbjo/config-rc/compare/v1.0.36...v1.0.37) (2026-02-05)
 
 
