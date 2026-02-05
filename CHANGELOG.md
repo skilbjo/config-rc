@@ -1,3 +1,10 @@
+## [1.0.39](https://github.com/skilbjo/config-rc/compare/v1.0.38...v1.0.39) (2026-02-05)
+
+
+### Bug Fixes
+
+* bump versions ([67b4ec3](https://github.com/skilbjo/config-rc/commit/67b4ec3ad988769ee283d8c29150abc6ae6a579e))
+
 ## [1.0.38](https://github.com/skilbjo/config-rc/compare/v1.0.37...v1.0.38) (2026-02-05)
 
 
