@@ -1,3 +1,21 @@
+## [1.0.41](https://github.com/skilbjo/config-rc/compare/v1.0.40...v1.0.41) (2026-04-02)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @commitlint/cli from 20.4.3 to 20.4.4 ([#503](https://github.com/skilbjo/config-rc/issues/503)) ([84688ba](https://github.com/skilbjo/config-rc/commit/84688baea55e185d92ee148bbe2be352b7c29c59))
+* **deps-dev:** bump @commitlint/cli from 20.4.4 to 20.5.0 ([#507](https://github.com/skilbjo/config-rc/issues/507)) ([ec8aae9](https://github.com/skilbjo/config-rc/commit/ec8aae936d6f1d779b76327606458c5b6cf1b5ae))
+* **deps-dev:** bump @commitlint/config-angular from 20.4.3 to 20.4.4 ([#504](https://github.com/skilbjo/config-rc/issues/504)) ([6a3828d](https://github.com/skilbjo/config-rc/commit/6a3828df673e270987e7826535c4605c3f217b8e))
+* **deps-dev:** bump @commitlint/config-angular from 20.4.4 to 20.5.0 ([#511](https://github.com/skilbjo/config-rc/issues/511)) ([686f283](https://github.com/skilbjo/config-rc/commit/686f28352423f68197dd29c9e10fabfc09d84ef0))
+* **deps-dev:** bump @types/node from 25.3.5 to 25.5.0 ([#505](https://github.com/skilbjo/config-rc/issues/505)) ([56f5ddd](https://github.com/skilbjo/config-rc/commit/56f5ddd50f742f4f35a1e5d81b76152a7251c3d9))
+* **deps:** bump dependabot/fetch-metadata from 2.5.0 to 3.0.0 ([#512](https://github.com/skilbjo/config-rc/issues/512)) ([f31db5a](https://github.com/skilbjo/config-rc/commit/f31db5a92f7844a7dcf0ab6e2fc92e9bd1b995a4))
+* **deps:** bump eslint-plugin-jest from 29.15.0 to 29.15.1 ([#513](https://github.com/skilbjo/config-rc/issues/513)) ([a378f04](https://github.com/skilbjo/config-rc/commit/a378f043f18b6fca353b693348e0e7e4e8c9ff71))
+* **deps:** bump eslint-plugin-perfectionist from 5.6.0 to 5.7.0 ([#510](https://github.com/skilbjo/config-rc/issues/510)) ([0fffe5f](https://github.com/skilbjo/config-rc/commit/0fffe5f9bcd9ff93e6563088509538ee97095049))
+* **deps:** bump flatted in the npm_and_yarn group across 1 directory ([#501](https://github.com/skilbjo/config-rc/issues/501)) ([bfccb4d](https://github.com/skilbjo/config-rc/commit/bfccb4d62e57e9700159e4c264f4991074ef1b60))
+* **deps:** bump typescript-eslint from 8.56.1 to 8.57.0 ([#502](https://github.com/skilbjo/config-rc/issues/502)) ([6092209](https://github.com/skilbjo/config-rc/commit/6092209bf92438178f64fbff1a7bc0ef95a6e781))
+* **deps:** bump typescript-eslint from 8.57.0 to 8.57.1 ([#508](https://github.com/skilbjo/config-rc/issues/508)) ([ca1103c](https://github.com/skilbjo/config-rc/commit/ca1103c087401f8342741a19d934f86f0dc6b0aa))
+* **deps:** bump typescript-eslint from 8.57.1 to 8.57.2 ([#515](https://github.com/skilbjo/config-rc/issues/515)) ([29dafec](https://github.com/skilbjo/config-rc/commit/29dafec51dc3e9f1e70c03ce0f14288688309f50))
+
 ## [1.0.40](https://github.com/skilbjo/config-rc/compare/v1.0.39...v1.0.40) (2026-03-07)
 
 
