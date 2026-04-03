@@ -94,9 +94,9 @@ const config = tseslint.config(
   {
     files: ['**/*.ts', '**/*.tsx'],
     languageOptions: {
-      parser: tseslint.parser,
       parserOptions: {
-        project: './tsconfig.json',
+        projectService: true,
+        tsconfigRootDir: import.meta.dirname,
       },
     },
     extends: [
