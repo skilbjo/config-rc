@@ -1,3 +1,10 @@
+## [1.0.42](https://github.com/skilbjo/config-rc/compare/v1.0.41...v1.0.42) (2026-04-03)
+
+
+### Bug Fixes
+
+* prepare for ts@7 ([fe26110](https://github.com/skilbjo/config-rc/commit/fe26110497f74c3a51816b32725ebc03d1351e47))
+
 ## [1.0.41](https://github.com/skilbjo/config-rc/compare/v1.0.40...v1.0.41) (2026-04-02)
 
 
