@@ -1,3 +1,11 @@
+## [1.0.43](https://github.com/skilbjo/config-rc/compare/v1.0.42...v1.0.43) (2026-04-05)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @types/node from 25.5.0 to 25.5.2 ([#517](https://github.com/skilbjo/config-rc/issues/517)) ([9772bcd](https://github.com/skilbjo/config-rc/commit/9772bcd78e7323e3fbc8a651b2f796dad1af7e46))
+* remove typeRoots, redundant ([6fb34f3](https://github.com/skilbjo/config-rc/commit/6fb34f3831cd846be540545289c16be31c248ab3))
+
 ## [1.0.42](https://github.com/skilbjo/config-rc/compare/v1.0.41...v1.0.42) (2026-04-03)
 
 
