@@ -1,3 +1,10 @@
+## [1.0.44](https://github.com/skilbjo/config-rc/compare/v1.0.43...v1.0.44) (2026-04-05)
+
+
+### Bug Fixes
+
+* promise-retry bug ([de280de](https://github.com/skilbjo/config-rc/commit/de280de3c83d6c546878c15787ca28d2a07ee069))
+
 ## [1.0.43](https://github.com/skilbjo/config-rc/compare/v1.0.42...v1.0.43) (2026-04-05)
 
 
