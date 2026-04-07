@@ -21,7 +21,6 @@
     "inlineSourceMap": true,
     "strict": true,
     "types": [
-      "jest",
       "node"
     ]
   },
