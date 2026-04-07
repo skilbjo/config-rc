@@ -1,3 +1,10 @@
+## [1.0.46](https://github.com/skilbjo/config-rc/compare/v1.0.45...v1.0.46) (2026-04-07)
+
+
+### Bug Fixes
+
+* remove expect ([d458550](https://github.com/skilbjo/config-rc/commit/d458550e7799eaa86ccb42507b5ebed95d6dfa0c))
+
 ## [1.0.45](https://github.com/skilbjo/config-rc/compare/v1.0.44...v1.0.45) (2026-04-07)
 
 
