@@ -1,3 +1,10 @@
+## [1.0.45](https://github.com/skilbjo/config-rc/compare/v1.0.44...v1.0.45) (2026-04-07)
+
+
+### Bug Fixes
+
+* remove jest ([f060f5d](https://github.com/skilbjo/config-rc/commit/f060f5d2582602952c8e7da0590b6e58dba1a056))
+
 ## [1.0.44](https://github.com/skilbjo/config-rc/compare/v1.0.43...v1.0.44) (2026-04-05)
 
 
