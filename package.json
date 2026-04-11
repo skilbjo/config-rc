@@ -2,14 +2,8 @@
   "$schema": "https://json.schemastore.org/package",
   "name": "@skilbjo/config-rc",
   "version": "0.0.1",
-  "description": "eslint, prettier, & tsconfig config",
   "type": "module",
   "main": "index.js",
-  "exports": {
-    ".": "./index.js",
-    "./tsconfig.json": "./tsconfig.json",
-    "./*": "./*"
-  },
   "private": false,
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
@@ -20,24 +14,22 @@
     "type": "git",
     "url": "git+https://github.com/skilbjo/config-rc.git"
   },
-  "scripts": {
-    "prepare": "if [ -z \"$GITHUB_ACTIONS\" ]; then npx husky install; fi",
-    "eslint": "eslint .",
-    "lint": "npm run eslint",
-    "depcheck": "depcheck",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare-npm": "jq 'del(.publishConfig) | . + { publishConfig: { registry: \"https://registry.npmjs.org/\", access: \"public\", provenance: true } }' package.json >package2.json && mv package2.json package.json"
-  },
-  "keywords": [
-    "eslint",
-    "eslintrc"
-  ],
   "author": "skilbjo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/skilbjo/config-rc/issues"
   },
   "homepage": "https://github.com/skilbjo/config-rc#readme",
+  "scripts": {
+    "prepare": "if [ -z \"$GITHUB_ACTIONS\" ]; then npx husky install; fi",
+    "exec": "node",
+    "eslint": "eslint .",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix .",
+    "depcheck": "depcheck",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare-npm": "jq 'del(.publishConfig) | . + { publishConfig: { registry: \"https://registry.npmjs.org/\", access: \"public\", provenance: true } }' package.json >package2.json && mv package2.json package.json"
+  },
   "dependencies": {
     "@eslint/js": "9.39.2",
     "@stylistic/eslint-plugin": "5.10.0",
@@ -62,6 +54,11 @@
     "@types/node": "25.5.2",
     "depcheck": "1.4.7",
     "husky": "9.1.7"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./tsconfig.json": "./tsconfig.json",
+    "./*": "./*"
   },
   "commitlint": {
     "extends": [
