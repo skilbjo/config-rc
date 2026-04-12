@@ -142,6 +142,12 @@ const config = tseslint.config(
     },
   },
   {
+    files: ['**/*.test.ts', '**/*.test.js', 'test/**/*.ts', 'test/**/*.js'],
+    rules: {
+      '@typescript-eslint/no-floating-promises': 'off',
+    },
+  },
+  {
     files: ['**/*.js', '**/*.cjs', '**/*.mjs'],
     ...tseslint.configs.disableTypeChecked,
   },
