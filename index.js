@@ -21,11 +21,11 @@ const config = tseslint.config(
       globals: {
         ...globals.node,
         ...globals.jest,
-        ...globals.es2021,
+        ...globals.es2025,
         Atomics: 'readonly',
         SharedArrayBuffer: 'readonly',
       },
-      ecmaVersion: 2022,
+      ecmaVersion: 2025,
       sourceType: 'module',
     },
     plugins: {
@@ -59,8 +59,29 @@ const config = tseslint.config(
       'n/no-extraneous-import': 'off',
       'n/no-missing-import': 'off', // conflicts with typescript absolute imports
       'n/no-process-exit': 'off',
-      'n/no-unsupported-features/es-syntax': 'off',
+      'n/no-unsupported-features/es-syntax': [
+        'error',
+        { version: '>=24.14.1' },
+      ],
+      'n/no-unsupported-features/node-builtins': [
+        'error',
+        { version: '>=24.14.1' },
+      ],
+      'n/prefer-node-protocol': 'error',
       'n/shebang': 'off',
+      'no-restricted-syntax': [
+        'error',
+        {
+          selector: 'TSEnumDeclaration',
+          message:
+            'Use const object + as const instead of enum. Required for erasableSyntaxOnly / TS@7 compatibility.',
+        },
+        {
+          selector: 'TSModuleDeclaration[declare!=true]',
+          message:
+            'Avoid namespace/module declarations; use ES modules instead.',
+        },
+      ],
       'no-multiple-empty-lines': [2, { max: 1, maxEOF: 0 }],
       '@stylistic/eol-last': ['error', 'always'],
       '@stylistic/no-trailing-spaces': 'error',
@@ -113,6 +134,7 @@ const config = tseslint.config(
           fixStyle: 'inline-type-imports',
         },
       ],
+      '@typescript-eslint/no-deprecated': 'warn',
       '@typescript-eslint/no-floating-promises': 'error',
       '@typescript-eslint/no-misused-promises': 'error',
       '@typescript-eslint/no-unsafe-function-type': 'off',

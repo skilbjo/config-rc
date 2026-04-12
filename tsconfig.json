@@ -21,6 +21,9 @@
     "inlineSources": true,
     "inlineSourceMap": true,
     "strict": true,
+    "isolatedDeclarations": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
     "types": [
       "node"
     ]
