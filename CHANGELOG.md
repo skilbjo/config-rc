@@ -1,3 +1,10 @@
+## [1.0.51](https://github.com/skilbjo/config-rc/compare/v1.0.50...v1.0.51) (2026-04-12)
+
+
+### Bug Fixes
+
+* no floating promise dropped on test dir ([5f5904c](https://github.com/skilbjo/config-rc/commit/5f5904c672060f937b84f015fe545de34e3dcdc0))
+
 ## [1.0.50](https://github.com/skilbjo/config-rc/compare/v1.0.49...v1.0.50) (2026-04-12)
 
 
