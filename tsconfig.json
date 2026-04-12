@@ -1,8 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Node 22",
-  "_version": "22.0.0",
-  "extends": "@tsconfig/node22/tsconfig.json",
+  "display": "Node 24",
+  "_version": "24.0.0",
+  "extends": "@tsconfig/node24/tsconfig.json",
   "compilerOptions": {
     "module": "ESNext",
     "moduleResolution": "Bundler",
