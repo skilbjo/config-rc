@@ -1,3 +1,10 @@
+## [1.0.49](https://github.com/skilbjo/config-rc/compare/v1.0.48...v1.0.49) (2026-04-12)
+
+
+### Bug Fixes
+
+* add consistent type imports ([c5030b1](https://github.com/skilbjo/config-rc/commit/c5030b132d3bb08f4c9933f29d790934f128486b))
+
 ## [1.0.48](https://github.com/skilbjo/config-rc/compare/v1.0.47...v1.0.48) (2026-04-12)
 
 
