@@ -1,3 +1,10 @@
+## [1.0.50](https://github.com/skilbjo/config-rc/compare/v1.0.49...v1.0.50) (2026-04-12)
+
+
+### Bug Fixes
+
+* more ts@7 prep ([7abe1c7](https://github.com/skilbjo/config-rc/commit/7abe1c727c94db205abe345b70df10546b6844a1))
+
 ## [1.0.49](https://github.com/skilbjo/config-rc/compare/v1.0.48...v1.0.49) (2026-04-12)
 
 
