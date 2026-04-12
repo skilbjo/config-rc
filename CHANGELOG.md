@@ -1,3 +1,10 @@
+## [1.0.48](https://github.com/skilbjo/config-rc/compare/v1.0.47...v1.0.48) (2026-04-12)
+
+
+### Bug Fixes
+
+* node@24 ([28f94f3](https://github.com/skilbjo/config-rc/commit/28f94f349ad57224d237bf8ba44aae772874c92b))
+
 ## [1.0.47](https://github.com/skilbjo/config-rc/compare/v1.0.46...v1.0.47) (2026-04-12)
 
 
