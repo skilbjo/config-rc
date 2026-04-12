@@ -11,6 +11,7 @@
       "ES2025"
     ],
     "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
     "outDir": "dist",
     "declaration": true,
     "forceConsistentCasingInFileNames": true,
