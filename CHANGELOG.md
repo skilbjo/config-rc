@@ -1,3 +1,10 @@
+## [1.0.47](https://github.com/skilbjo/config-rc/compare/v1.0.46...v1.0.47) (2026-04-12)
+
+
+### Bug Fixes
+
+* add ts@7 friendly setting ([5878d05](https://github.com/skilbjo/config-rc/commit/5878d05146d3002fd08b30390e9cf65e815350b3))
+
 ## [1.0.46](https://github.com/skilbjo/config-rc/compare/v1.0.45...v1.0.46) (2026-04-07)
 
 
