@@ -1,3 +1,11 @@
+## [1.0.54](https://github.com/skilbjo/config-rc/compare/v1.0.53...v1.0.54) (2026-04-13)
+
+
+### Bug Fixes
+
+* extend no-floating-promises off to tsx and jsx test files ([a278c1b](https://github.com/skilbjo/config-rc/commit/a278c1b9715151fab1bebc352ff5f22b2bf2f835))
+* prettier formatting for test files array ([2bf8c32](https://github.com/skilbjo/config-rc/commit/2bf8c32a941e25ee4422f507d28c405a45c0b668))
+
 ## [1.0.53](https://github.com/skilbjo/config-rc/compare/v1.0.52...v1.0.53) (2026-04-13)
 
 
