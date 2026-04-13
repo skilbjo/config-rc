@@ -1,3 +1,10 @@
+## [1.0.53](https://github.com/skilbjo/config-rc/compare/v1.0.52...v1.0.53) (2026-04-13)
+
+
+### Bug Fixes
+
+* revert version field to 0.0.1 (managed by semantic-release) ([f25880a](https://github.com/skilbjo/config-rc/commit/f25880add8bc9620ba5847d31f9a13f2e5d125f1))
+
 ## [1.0.51](https://github.com/skilbjo/config-rc/compare/v1.0.50...v1.0.51) (2026-04-12)
 
 
