@@ -142,7 +142,15 @@ const config = tseslint.config(
     },
   },
   {
-    files: ['**/*.test.ts', '**/*.test.tsx', '**/*.test.js', '**/*.test.jsx', 'test/**/*.ts', 'test/**/*.tsx', 'test/**/*.js'],
+    files: [
+      '**/*.test.ts',
+      '**/*.test.tsx',
+      '**/*.test.js',
+      '**/*.test.jsx',
+      'test/**/*.ts',
+      'test/**/*.tsx',
+      'test/**/*.js',
+    ],
     rules: {
       '@typescript-eslint/no-floating-promises': 'off',
     },
