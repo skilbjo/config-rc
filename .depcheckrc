@@ -1,7 +1,7 @@
 ignores: [
   '@commitlint/cli',
   '@commitlint/config-angular',
-  '@tsconfig/node22',
+  '@tsconfig/node24',
   'eslint-import-resolver-typescript',
   'husky'
 ]
