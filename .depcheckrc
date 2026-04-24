@@ -3,5 +3,7 @@ ignores: [
   '@commitlint/config-angular',
   '@tsconfig/node24',
   'eslint-import-resolver-typescript',
-  'husky'
+  'husky',
+
+  "@typescript/native-preview",
 ]

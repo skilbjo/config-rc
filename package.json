@@ -34,7 +34,7 @@
     "@eslint/js": "9.39.2",
     "@stylistic/eslint-plugin": "5.10.0",
     "@tsconfig/node24": "24.0.4",
-    "eslint": "9.39.2",
+    "eslint": "9.39.4",
     "eslint-config-prettier": "10.1.8",
     "eslint-import-resolver-typescript": "4.4.4",
     "eslint-plugin-import": "2.32.0",
@@ -67,13 +67,5 @@
   },
   "engines": {
     "node": ">=24.14.1"
-  },
-  "depcheck": {
-    "ignores": [
-      "@typescript/native-preview",
-      "eslint-import-resolver-typescript",
-      "@commitlint/cli",
-      "@commitlint/config-angular"
-    ]
   }
 }
