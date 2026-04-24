@@ -31,7 +31,7 @@
     "prepare-npm": "jq 'del(.publishConfig) | . + { publishConfig: { registry: \"https://registry.npmjs.org/\", access: \"public\", provenance: true } }' package.json >package2.json && mv package2.json package.json"
   },
   "dependencies": {
-    "@eslint/js": "9.39.2",
+    "@eslint/js": "10.0.1",
     "@stylistic/eslint-plugin": "5.10.0",
     "@tsconfig/node24": "24.0.4",
     "eslint": "9.39.2",
