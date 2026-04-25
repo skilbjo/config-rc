@@ -13,7 +13,7 @@ defaults:
 
 jobs:
   publish-artifact:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm
     timeout-minutes: 10
     if: github.repository == 'skilbjo/config-rc' # Security: Only run on pushes to the main repository
     permissions:
