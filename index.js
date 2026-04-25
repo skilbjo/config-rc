@@ -1,9 +1,10 @@
 /* eslint-disable perfectionist/sort-objects */
 import eslint from '@eslint/js';
 import * as tseslint from 'typescript-eslint';
-import importPlugin from 'eslint-plugin-import';
+import importXPlugin, {
+  flatConfigs as importXFlatConfigs,
+} from 'eslint-plugin-import-x';
 import nPlugin from 'eslint-plugin-n';
-import jestPlugin from 'eslint-plugin-jest';
 import prettierPlugin from 'eslint-plugin-prettier';
 import securityPlugin from 'eslint-plugin-security';
 import perfectionistPlugin, {
@@ -20,7 +21,6 @@ const config = tseslint.config(
     languageOptions: {
       globals: {
         ...globals.node,
-        ...globals.jest,
         ...globals.es2025,
         Atomics: 'readonly',
         SharedArrayBuffer: 'readonly',
@@ -29,32 +29,31 @@ const config = tseslint.config(
       sourceType: 'module',
     },
     plugins: {
-      import: importPlugin,
+      'import-x': importXPlugin,
       n: nPlugin,
       prettier: prettierPlugin,
       security: securityPlugin,
       perfectionist: perfectionistPlugin,
-      jest: jestPlugin,
       '@typescript-eslint': tseslint.plugin,
       '@stylistic': stylisticPlugin,
     },
     rules: {
       ...eslint.configs.recommended.rules,
-      ...importPlugin.configs.recommended.rules,
+      ...importXFlatConfigs.recommended.rules,
       ...nPlugin.configs.recommended.rules,
       ...prettierPlugin.configs.recommended.rules,
       ...securityPlugin.configs.recommended.rules,
       ...perfectionistConfigs['recommended-alphabetical'].rules,
       '@typescript-eslint/no-non-null-assertion': 1,
       eqeqeq: 2,
-      'import/default': 2,
-      'import/export': 2,
-      'import/named': 2,
-      'import/namespace': 2,
-      'import/newline-after-import': 2,
-      'import/no-duplicates': 2,
-      'import/no-unresolved': 2,
-      'import/order': 2,
+      'import-x/default': 2,
+      'import-x/export': 2,
+      'import-x/named': 2,
+      'import-x/namespace': 2,
+      'import-x/newline-after-import': 2,
+      'import-x/no-duplicates': 2,
+      'import-x/no-unresolved': 2,
+      'import-x/order': 2,
       'n/hashbang': 'off',
       'n/no-extraneous-import': 'off',
       'n/no-missing-import': 'off', // conflicts with typescript absolute imports
@@ -101,10 +100,10 @@ const config = tseslint.config(
       'security/detect-object-injection': 'off',
     },
     settings: {
-      'import/parsers': {
+      'import-x/parsers': {
         '@typescript-eslint/parser': ['.ts'],
       },
-      'import/resolver': {
+      'import-x/resolver': {
         node: { extensions: ['.ts', '.js'] },
         typescript: {
           alwaysTryTypes: true,
@@ -123,7 +122,7 @@ const config = tseslint.config(
     extends: [
       ...tseslint.configs.recommended,
       ...tseslint.configs.strict, // Note: This includes 'no-unused-vars': 'error'
-      importPlugin.configs.typescript,
+      importXFlatConfigs.typescript,
     ],
     rules: {
       '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
