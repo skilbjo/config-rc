@@ -12,7 +12,7 @@ defaults:
 # uses: lhotari/action-upterm@v1 # if ssh is needed
 
 jobs:
-  publish-artifact:
+  publish-artefact:
     runs-on: ubuntu-24.04-arm
     timeout-minutes: 10
     if: github.repository == 'skilbjo/config-rc' # Security: Only run on pushes to the main repository
