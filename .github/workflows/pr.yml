@@ -19,14 +19,14 @@ jobs:
       pull-requests: write
 
     steps:
-      - uses: step-security/harden-runner@v2.19.0
+      - uses: step-security/harden-runner@v2
         with:
           egress-policy: audit
-      - uses: actions/checkout@v6.0.2
+      - uses: actions/checkout@v6
         with:
           ref: ${{ github.event.pull_request.head.sha }}
 
-      - uses: actions/setup-node@v6.4.0
+      - uses: actions/setup-node@v6
         with:
           node-version-file: .nvmrc
           cache: npm
@@ -65,7 +65,7 @@ jobs:
     if: ${{ github.actor == 'dependabot[bot]' }}
 
     steps:
-      - uses: dependabot/fetch-metadata@v3.1.0
+      - uses: dependabot/fetch-metadata@v3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Approve a PR
