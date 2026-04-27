@@ -52,7 +52,7 @@
     "@types/node": "25.6.0",
     "depcheck": "1.4.7",
     "husky": "9.1.7",
-    "@typescript/native-preview": "7.0.0-dev.20260426.1"
+    "typescript": "npm:@typescript/native-preview@7.0.0-dev.20260426.1"
   },
   "exports": {
     ".": "./index.js",
