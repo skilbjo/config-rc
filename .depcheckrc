@@ -6,4 +6,5 @@ ignores: [
   'husky',
 
   "@typescript/native-preview",
+  "@typescript-eslint/parser",
 ]

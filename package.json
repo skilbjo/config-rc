@@ -34,6 +34,7 @@
     "@eslint/js": "10.0.1",
     "@stylistic/eslint-plugin": "5.10.0",
     "@tsconfig/node24": "24.0.4",
+    "@typescript-eslint/parser": "8.59.1",
     "eslint": "10.2.1",
     "eslint-config-prettier": "10.1.8",
     "eslint-import-resolver-typescript": "4.4.4",
@@ -50,9 +51,9 @@
     "@commitlint/cli": "20.5.2",
     "@commitlint/config-angular": "20.5.0",
     "@types/node": "25.6.0",
+    "@typescript/native-preview": "7.0.0-dev.20260426.1",
     "depcheck": "1.4.7",
-    "husky": "9.1.7",
-    "typescript": "npm:@typescript/native-preview@7.0.0-dev.20260426.1"
+    "husky": "9.1.7"
   },
   "exports": {
     ".": "./index.js",
