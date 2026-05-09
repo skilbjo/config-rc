@@ -2,7 +2,10 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Node 24",
   "_version": "24.0.0",
-  "extends": "@tsconfig/node24/tsconfig.json",
+  "extends": [
+    "@tsconfig/node24/tsconfig.json",
+    "@tsconfig/strictest/tsconfig.json"
+  ],
   "compilerOptions": {
     "module": "ESNext",
     "moduleResolution": "Bundler",
@@ -15,15 +18,11 @@
     "outDir": "dist",
     "declaration": true,
     "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitReturns": true,
+    "noUnusedLocals": false,
     "resolveJsonModule": true,
     "inlineSources": true,
     "inlineSourceMap": true,
-    "strict": true,
     "isolatedDeclarations": true,
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
     "types": [
       "node"
     ]
