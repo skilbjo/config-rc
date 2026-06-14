@@ -52,7 +52,7 @@
     "@commitlint/cli": "21.0.2",
     "@commitlint/config-angular": "21.0.2",
     "@types/node": "25.9.2",
-    "@typescript/native-preview": "7.0.0-dev.20260606.1",
+    "@typescript/native-preview": "7.0.0-dev.20260613.1",
     "depcheck": "1.4.7",
     "husky": "9.1.7"
   },
