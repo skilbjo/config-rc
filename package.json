@@ -49,7 +49,7 @@
     "typescript-eslint": "8.62.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "21.1.0",
+    "@commitlint/cli": "21.2.0",
     "@commitlint/config-angular": "21.2.0",
     "@types/node": "26.0.1",
     "@typescript/native-preview": "7.0.0-dev.20260704.1",
