@@ -106,7 +106,7 @@ const config = tseslint.config(
       'import-x/resolver': {
         node: { extensions: ['.ts', '.js'] },
         typescript: {
-          project: ['./tsconfig.json', './tsconfig.build.json'],
+          alwaysTryTypes: true,
         },
       },
     },
@@ -115,13 +115,14 @@ const config = tseslint.config(
     files: ['**/*.ts', '**/*.tsx'],
     languageOptions: {
       parserOptions: {
-        project: ['./tsconfig.json', './tsconfig.build.json'],
-        tsconfigRootDir: process.cwd(),
+        projectService: true,
+        tsconfigRootDir: import.meta.dirname,
       },
     },
     extends: [
       ...tseslint.configs.recommended,
       ...tseslint.configs.strict, // Note: This includes 'no-unused-vars': 'error'
+      importXFlatConfigs.typescript,
     ],
     rules: {
       '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
