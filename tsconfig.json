@@ -9,9 +9,9 @@
   "compilerOptions": {
     "module": "ESNext",
     "moduleResolution": "Bundler",
-    "target": "ES2025",
+    "target": "ES2024",
     "lib": [
-      "ES2025"
+      "ES2024"
     ],
     "erasableSyntaxOnly": true,
     "verbatimModuleSyntax": true,
