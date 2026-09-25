@@ -2,8 +2,10 @@
 import eslint from '@eslint/js';
 import * as tseslint from 'typescript-eslint';
 import importXPlugin, {
+  createNodeResolver,
   flatConfigs as importXFlatConfigs,
 } from 'eslint-plugin-import-x';
+import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript';
 import nPlugin from 'eslint-plugin-n';
 import prettierPlugin from 'eslint-plugin-prettier';
 import securityPlugin from 'eslint-plugin-security';
@@ -103,12 +105,21 @@ const config = tseslint.config(
       'import-x/parsers': {
         '@typescript-eslint/parser': ['.ts'],
       },
-      'import-x/resolver': {
-        node: { extensions: ['.ts', '.js'] },
-        typescript: {
-          project: ['./tsconfig.json', './tsconfig.build.json'],
-        },
-      },
+      // Statically imported and passed as resolver objects (`resolver-next`)
+      // rather than looked up by name (the legacy `resolver` setting):
+      // eslint-plugin-import-x resolves a named resolver by walking Node's
+      // module resolution from the *linted file's* location, which only
+      // reaches this package's own `eslint-import-resolver-typescript` when
+      // npm happens to hoist it there. For a consumer where it doesn't (e.g.
+      // a JS-only repo with no tsconfig, where npm has no reason to hoist a
+      // TS resolver), the lookup silently falls through to requiring the
+      // unrelated `typescript` compiler package by the same name and rejects
+      // it as an invalid resolver interface. `alwaysTryTypes` (no `project`)
+      // lets it auto-discover a tsconfig per file instead of requiring one.
+      'import-x/resolver-next': [
+        createTypeScriptImportResolver({ alwaysTryTypes: true }),
+        createNodeResolver({ extensions: ['.ts', '.js'] }),
+      ],
     },
   },
   {
