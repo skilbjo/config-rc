@@ -26,9 +26,9 @@
     "eslint": "eslint .",
     "lint": "eslint",
     "lint:fix": "eslint --fix .",
-    "depcheck": "depcheck",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare-npm": "jq 'del(.publishConfig) | . + { publishConfig: { registry: \"https://registry.npmjs.org/\", access: \"public\", provenance: true } }' package.json >package2.json && mv package2.json package.json"
+    "prepare-npm": "jq 'del(.publishConfig) | . + { publishConfig: { registry: \"https://registry.npmjs.org/\", access: \"public\", provenance: true } }' package.json >package2.json && mv package2.json package.json",
+    "knip": "knip --dependencies"
   },
   "dependencies": {
     "@eslint/js": "10.0.1",
@@ -53,8 +53,8 @@
     "@commitlint/config-angular": "21.2.4",
     "@types/node": "26.6.6",
     "@typescript/native-preview": "7.0.0-dev.20260707.2",
-    "depcheck": "1.4.7",
-    "husky": "9.1.7"
+    "husky": "9.1.7",
+    "knip": "6.44.1"
   },
   "exports": {
     ".": "./index.js",
@@ -68,5 +68,11 @@
   },
   "engines": {
     "node": ">=26.12.1"
+  },
+  "overrides": {
+    "minimatch@^10": "11.0.5",
+    "eslint-plugin-import-x": {
+      "minimatch": "10.2.6"
+    }
   }
 }
