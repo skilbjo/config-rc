@@ -35,18 +35,18 @@
     "@stylistic/eslint-plugin": "5.10.0",
     "@tsconfig/node24": "24.0.6",
     "@tsconfig/strictest": "2.0.9",
-    "@typescript-eslint/parser": "8.72.2",
-    "eslint": "10.14.0",
+    "@typescript-eslint/parser": "8.73.0",
+    "eslint": "10.15.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-import-resolver-typescript": "4.4.5",
     "eslint-plugin-import-x": "4.18.1",
     "eslint-plugin-n": "18.5.0",
-    "eslint-plugin-perfectionist": "5.13.0",
+    "eslint-plugin-perfectionist": "5.14.0",
     "eslint-plugin-prettier": "5.5.7",
     "eslint-plugin-security": "4.2.1",
     "globals": "17.14.0",
     "prettier": "3.10.1",
-    "typescript-eslint": "8.72.2"
+    "typescript-eslint": "8.73.0"
   },
   "devDependencies": {
     "@commitlint/cli": "21.2.4",
@@ -54,7 +54,7 @@
     "@types/node": "26.6.6",
     "@typescript/native-preview": "7.0.0-dev.20260707.2",
     "husky": "9.1.7",
-    "knip": "6.45.1"
+    "knip": "6.46.1"
   },
   "exports": {
     ".": "./index.js",
